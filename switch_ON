@@ -1,0 +1,1 @@
+wget --save-cookies /tmp/cookies.txt --user="user" --password="password" "http://192.168.0.x/setSystemMotion?ReplySuccessPage=motion.htm&ReplyErrorPage=motion.htm&MotionDetectionEnable=1&MotionDetectionScheduleDay=0&MotionDetectionScheduleMode=0&MotionDetectionSensivity=80&ConfigSystemMotion=Save"

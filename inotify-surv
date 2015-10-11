@@ -1,0 +1,10 @@
+# D. Gautier de Lahaut Surveille la creation des reperoires des camera
+# et envoie un SMS si un nouveau repertoire est créé
+
+while true #run indefinitely
+do 
+inotifywait -e create /mnt/nas/Cam1/ -e create /mnt/nas/Cam2/
+echo "envoyer SMS a Damien"
+wget --save-cookies /tmp/cookies.txt "https://smsapi.free-mobile.fr/sendmsg?user=user_sms_chez_free&pass=pasword_sms_chez_free&msg=Detection%20Camera"
+
+done

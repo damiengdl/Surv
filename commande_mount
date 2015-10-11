@@ -1,0 +1,2 @@
+sudo mount -t nfs -o nolock 192.168.0.z:/Partage /mnt/nas
+server:/usr/local/pub    /pub   nfs    rsize=8192,wsize=8192,timeo=14,intr
